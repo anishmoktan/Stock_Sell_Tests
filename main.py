@@ -34,7 +34,6 @@ def update_port(portfolio,date_today):
 
     #   updated[stock]={date_today:x}
 
-
 updated_portfolio= update_port(port,"Nov20")
 #print(update_port(port,"Nov20"))
 print(port)
@@ -60,4 +59,3 @@ print(roi(port,updated_portfolio))
 
 if (roi(port,updated_portfolio)["raw"]) == 2100:
   print("ALMAOAO")
-
