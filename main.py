@@ -18,6 +18,7 @@ port= {
   }
 
 
+
 def update_port(portfolio,date_today):
   updated_port={}
   for stock in portfolio:
