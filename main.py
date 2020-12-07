@@ -81,5 +81,6 @@ def roi(raw_port,updated_port):
 
 print(roi(port,updated_portfolio))
 
+
 if (roi(port,updated_portfolio)["raw"]) == 2100:
   print("ALMAOAO")
